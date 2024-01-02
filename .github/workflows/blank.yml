@@ -25,5 +25,5 @@ jobs:
         uses: docker/build-push-action@v5.1.0
         with:
           context: .
-          tags: 'latest'
+          tags: 'dpa0702/fiap2024-ghactions:latest'
           push: true
